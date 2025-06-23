@@ -90,8 +90,11 @@ th {<br>
 `
         }else if(homework==="表計算D17（自分で考えるところ）"){
             document.getElementById("answer").innerHTML=
-            `=if(AVERAGE(D6:D16)-int(average(D6:D16))<0.5,int(average(D6:D16)),int(average(D6:D16))+1)<br>
-            不等号の部分は移行しても成り立つため、差別化したい場合は移行した式を書いてください。`
+            `=IF(AVERAGE(D6:D16)-INT(AVERAGE(D6:D16))<0.5,INT(AVERAGE(D6:D16)),INT(AVERAGE(D6:D16))+1)<br>
+            不等号の部分は移行しても成り立つため、差別化したい場合は移行した式を書いてください。<br>
+            その他、<br>
+            =INT(AVERAGE(D6:D16)+0.5)<br>
+            という別解もある。`
         }
     }
 }
