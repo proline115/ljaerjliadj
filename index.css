@@ -41,6 +41,15 @@ button:hover{
     border-width: 100%;
     background-color: #ffffff;
     color: black;
+    font-size: 16px;
     display: none;
-    word-break: break-all;
+}
+td{
+    border: solid 1px black;
+}
+tr{
+    height: 25px;
+}
+.empty{
+    border: none;
 }
