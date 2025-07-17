@@ -119,11 +119,11 @@ th {<br>
                 <tr><td>9912</td><td>=hlookup(R14,H$24:AG$25,2)</td><td>78</td><td>57</td><td>=D14+E14</td><td>=int(F14/2)</td><td>=VLOOKUP(F14,D$24:E$26,2)</td><td></td><td></td><td class="empty"></td><td>=int(B14/1000)</td><td>=int((B14-L14*1000)/100)</td><td>=int((B14-L14*1000-M14*100)/10)</td><td>=B14-L14*1000-M14*100-N14*10</td><td>=sum(L14:O14)</td><td>=P14^2</td><td>=Q14-int(Q14/26)*26</td></tr>
                 <tr><td>9929</td><td>=hlookup(R15,H$24:AG$25,2)</td><td>39</td><td>67</td><td>=D15+E15</td><td>=int(F15/2)</td><td>=VLOOKUP(F15,D$24:E$26,2)</td><td></td><td></td><td class="empty"></td><td>=int(B15/1000)</td><td>=int((B15-L15*1000)/100)</td><td>=int((B15-L15*1000-M15*100)/10)</td><td>=B15-L15*1000-M15*100-N15*10</td><td>=sum(L15:O15)</td><td>=P15^2</td><td>=Q15-int(Q15/26)*26</td></tr>
                 <tr><td>9946</td><td>=hlookup(R16,H$24:AG$25,2)</td><td>88</td><td>79</td><td>=D16+E16</td><td>=int(F16/2)</td><td>=VLOOKUP(F16,D$24:E$26,2)</td><td></td><td></td><td class="empty"></td><td>=int(B16/1000)</td><td>=int((B16-L16*1000)/100)</td><td>=int((B16-L16*1000-M16*100)/10)</td><td>=B16-L16*1000-M16*100-N16*10</td><td>=sum(L16:O16)</td><td>=P16^2</td><td>=Q16-int(Q16/26)*26</td></tr>
-                <tr><td>平均</td><td>=int(average(D6:D16)+0.5)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td>最大値</td><td>=MAX(D6:D16)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td>最小値</td><td>=MIN(D6:D16)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td>受験者数</td><td>=count(D6:D16)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td>合格者平均</td><td></td><td></td><td></td><td>=AVERAGEIF(H6:H16,"◯",F6:F16)</td><td></td><td>=COUNTIF(H6:H16,"◯")</td><td></td><td></td></tr>
+                <tr><td colspan="2">平均</td><td>=int(average(D6:D16)+0.5)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td colspan="2">最大値</td><td>=MAX(D6:D16)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td colspan="2">最小値</td><td>=MIN(D6:D16)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td colspan="2">受験者数</td><td>=count(D6:D16)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td colspan="2">合格者平均</td><td></td><td></td><td>=AVERAGEIF(H6:H16,"◯",F6:F16)</td><td></td><td>=COUNTIF(H6:H16,"◯")</td><td></td><td></td></tr>
                 <tr></tr>
                 <tr><td class="empty"></td><td class="empty"></td><td>合計</td><td>合否</td></tr>
                 <tr><td class="empty"></td><td class="empty"></td><td>0</td><td>✕</td><td class="empty"></td><td>数字</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td></tr>
