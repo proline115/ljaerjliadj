@@ -123,7 +123,7 @@ th {<br>
                 <tr><td colspan="2">最大値</td><td>=MAX(D6:D16)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                 <tr><td colspan="2">最小値</td><td>=MIN(D6:D16)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                 <tr><td colspan="2">受験者数</td><td>=count(D6:D16)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td colspan="2">合格者平均</td><td></td><td></td><td>=AVERAGEIF(H6:H16,"◯",F6:F16)</td><td></td><td>=COUNTIF(H6:H16,"◯")</td><td></td><td></td></tr>
+                <tr><td colspan="2"></td><td></td><td>合格者平均</td><td>=AVERAGEIF(H6:H16,"◯",F6:F16)</td><td>合格者数</td><td>=COUNTIF(H6:H16,"◯")</td><td></td><td></td></tr>
                 <tr></tr>
                 <tr><td class="empty"></td><td class="empty"></td><td>合計</td><td>合否</td></tr>
                 <tr><td class="empty"></td><td class="empty"></td><td>0</td><td>✕</td><td class="empty"></td><td>数字</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td></tr>
