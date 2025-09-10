@@ -161,9 +161,9 @@ th {<br>
                 <tr><td colspan="2">中央値</td><td>=median(D6:D16)</td><td>=QUARTILE.INC(E6:E16,2)</td><td></td><td></td><td></td><td></td><td></td><td class="empty"></td><td colspan="3" class="empty"></td><td colspan="3" class="empty"></td></tr>
                 <tr><td colspan="2">第一四分位数</td><td>=quartile.inc(D6:D16,1)</td><td>=quartile.inc(E6:E16,1)</td><td></td><td></td><td></td><td></td><td></td><td class="empty"></td><td colspan="3"></td><td colspan="3">相関関係の有無</td></tr>
                 <tr><td colspan="2">第三四分位数</td><td>=quartile.inc(D6:D16,3)</td><td>=quartile.inc(E6:E16,3)</td><td></td><td></td><td></td><td></td><td></td><td class="empty"></td><td>0.0</td><td>〜</td><td>0.2</td><td colspan="3">相関関係はない</td></tr>
-                <tr><td colspan="2">分散</td><td>=varp(D6:D16)</td><td>=G17-E17^2</td><td></td><td></td><td></td><td></td><td></td><td class="empty"></td><td>0.2</td><td>〜</td><td>0.4</td><td colspan="3">弱い相関関係</td></tr>
-                <tr><td colspan="2">標準偏差</td><td>=round(sqrt(D25),1)</td><td>=round(Stdev.p(E6:E16),1)</td><td></td><td></td><td></td><td></td><td></td><td class="empty"></td><td>0.4</td><td>〜</td><td>0.7</td><td colspan="3">相関関係あり</td></tr>
-                <tr><td colspan="2">相関係数</td><td>=H17/(D25^0.5*E25^0.5)</td><td>=correl(D6:D16,E6:E16)</td><td colspan="2">=vlookup(D27,L15:Q21,4)</td><td colspan="2">=vlookup(sqrt(D27^2),L24:Q27,4)</td><td></td><td class="empty"></td><td>0.7</td><td>〜</td><td>1.0</td><td colspan="3">強い相関関係</td></tr>
+                <tr><td colspan="2">分散</td><td>=varp(D6:D16)</td><td>=G17-E17^2</td><td></td><td></td><td></td><td></td><td></td><td class="empty"></td><td>0.2</td><td>〜</td><td>0.4</td><td colspan="3">弱い</td></tr>
+                <tr><td colspan="2">標準偏差</td><td>=round(sqrt(D25),1)</td><td>=round(Stdev.p(E6:E16),1)</td><td></td><td></td><td></td><td></td><td></td><td class="empty"></td><td>0.4</td><td>〜</td><td>0.7</td><td colspan="3"></td></tr>
+                <tr><td colspan="2">相関係数</td><td>=H17/(D25^0.5*E25^0.5)</td><td>=correl(D6:D16,E6:E16)</td><td colspan="2">=vlookup(D27,L15:Q21,4)</td><td colspan="2">=if(E27>0.2,vlookup(E27,L24:Q27,4)&"正の相関関係",if(E27<-0.2,vlookup(-E27,L24:Q27,4)&"負の相関関係",O24))</td><td></td><td class="empty"></td><td>0.7</td><td>〜</td><td>1.0</td><td colspan="3">強い</td></tr>
             </table>`;
         }
     }
